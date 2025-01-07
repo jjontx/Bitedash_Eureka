@@ -1,0 +1,10 @@
+#server:
+ # port: 8761
+
+# make this stand-alone server, not to register w/ another eureka server
+# do not fetch other eureka server also
+
+#eureka:
+#  client:
+ #   fetch-registry: false
+  #  register-with-eureka: false
